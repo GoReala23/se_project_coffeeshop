@@ -5,7 +5,7 @@
 .footer__content {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+
   padding: 60px 100px 108px 80px;
   color: #ffffff;
 }
@@ -22,6 +22,12 @@
   font-size: 16px;
   line-height: 20px;
   padding-bottom: 20px;
+  margin: 0;
+}
+
+.footer__list {
+  padding-left: 0;
+  margin: 0;
 }
 
 .footer__list-item {
@@ -61,4 +67,5 @@
   font-size: 16px;
   line-height: 20px;
   padding: 0 0 60px 80px;
+  margin: 0;
 }
