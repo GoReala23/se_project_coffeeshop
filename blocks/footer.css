@@ -51,7 +51,9 @@
 }
 
 .footer__social-link {
-  color: #ffffff;
+  color: #fff;
+  display: flex;
+  align-items: center;
 }
 
 .footer__social-link:hover {

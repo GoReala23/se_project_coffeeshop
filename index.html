@@ -64,7 +64,7 @@
           alt="Inside of Coffeeshop"
         />
 
-        <div class="header__footer" id="contacts">
+        <div class="header__footer">
           <div>
             <p class="header__paragraph">Hours</p>
             <p class="header__paragraph">Monday - Friday (10:00 - 19:00)</p>
@@ -88,8 +88,6 @@
               <div>
                 <iframe
                   class="recipes__iframe"
-                  width="480"
-                  height="273"
                   src="https://www.youtube.com/embed/j6VlT_jUVPc"
                   title="The Ultimate AeroPress Technique (Episode #3)"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -103,8 +101,6 @@
               <div>
                 <iframe
                   class="recipes__iframe"
-                  width="480"
-                  height="273"
                   src="https://www.youtube.com/embed/st571DYYTR8"
                   title="The Ultimate French Press Technique"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -129,6 +125,7 @@
                 placeholder="Name Surname"
                 id="name"
                 class="form__input"
+                required
               />
 
               <label for="guest-num" class="form__label"
@@ -141,10 +138,11 @@
                 id="guest-num"
                 placeholder="1-8"
                 class="form__input"
+                required
               />
 
               <label for="date-time" class="form__label">Date & time *</label>
-              <input type="datetime-local" id="date-time" class="form__input" />
+              <input type="datetime-local" id="date-time" class="form__input" required />
 
               <label for="email" class="form__label">Your email *</label>
               <input
@@ -152,16 +150,17 @@
                 placeholder="email@email.com"
                 id="email"
                 class="form__input"
+                required
               />
             </fieldset>
             <fieldset class="form__fieldset">
               <button type="submit" class="form__button">Book a table</button>
             </fieldset>
-            <fieldset class="form__fieldset form__fieldset_checkbox">
-              <label for="i-agree" class="form__label"
-                >I agree with the terms of use</label
+            <fieldset class="form__fieldset">
+              <label for="i-agree" class="form__label form__label_type_checkbox"
+                ><input type="checkbox" class="form__checkbox" id="i-agree" required  />I agree with the terms of use</label
               >
-              <input type="checkbox" class="form__checkbox" id="i-agree" />
+
             </fieldset>
           </form>
         </section>
@@ -275,7 +274,7 @@
       </main>
 
       <footer class="footer">
-        <div class="footer__content">
+        <div class="footer__content" id="contacts">
           <img
             class="footer__logo"
             src="./images/logo_coffeeshop_light.svg"
@@ -285,23 +284,22 @@
             <h3 class="footer__social-heading">Social media</h3>
             <ul class="footer__list">
               <li class="footer__list-item">
-                <img
-                  class="footer__social-icon"
-                  src="./images/facebook_white.svg"
-                  alt="facebook icon"
-                />
-                <a class="footer__social-link" href="https://facebook.com"
-                  >Facebook</a
+                <a class="footer__social-link" href="https://facebook.com"></a>
+                  <img
+                    class="footer__social-icon"
+                    src="./images/facebook_white.svg"
+                    alt="facebook icon"
+                  />Facebook</a
                 >
               </li>
               <li class="footer__list-item">
-                <img
+
+                <a class="footer__social-link" href="https://instagram.com"
+                  > <img
                   class="footer__social-icon"
                   src="./images/instagram_white.svg"
                   alt="instagram icon"
-                />
-                <a class="footer__social-link" href="https://instagram.com"
-                  >Instagram</a
+                />Instagram</a
                 >
               </li>
             </ul>

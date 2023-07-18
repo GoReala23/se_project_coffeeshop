@@ -2,6 +2,7 @@
   padding: 100px 80px 215px;
   background: #0a2750;
   background-image: url("../images/background_recipes.svg");
+  background-position: center;
   color: #ffffff;
 }
 
@@ -12,6 +13,8 @@
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .recipes__subtitle {
@@ -22,6 +25,7 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
+  margin-top: 0;
   margin-bottom: 0;
   margin-right: 0;
 }
@@ -42,6 +46,7 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
+  margin-bottom: 0;
 }
 
 .recipes__iframe {
