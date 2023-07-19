@@ -47,7 +47,11 @@
   line-height: 30px;
   max-width: 660px;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 20px;
+}
+
+.about__paragraph:last-of-type {
+  margin-bottom: 0git;
 }
 
 .about__circle {
