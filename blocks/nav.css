@@ -32,3 +32,52 @@
   transition: color 1s linear;
   color: #2f80ed;
 }
+
+/* === Responsive for nav === */
+@media screen and (min-width: 320px) and (max-width: 680px) {
+  .nav {
+    width: 50%;
+  }
+
+  .nav__links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .nav__item {
+    font-size: 16px;
+    font-size: 20%;
+  }
+}
+
+@media screen and (min-width: 681px) and (max-width: 1024px) {
+  .nav {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 20px;
+  }
+
+  .nav__logo {
+    left: 0;
+  }
+
+  .nav__links {
+    gap: 15px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .nav {
+    justify-content: space-between;
+  }
+
+  .nav__logo {
+    left: 0;
+  }
+}

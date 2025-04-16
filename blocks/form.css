@@ -71,3 +71,52 @@
   height: 20px;
   margin: 0;
 }
+
+/* === Responsive for form === */
+@media screen and (min-width: 320px) and (max-width: 680px) {
+  .form {
+    max-width: 100%;
+    padding: 20px;
+  }
+
+  .form__input {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .form__button {
+    font-size: 14px;
+    height: 50px;
+  }
+}
+
+@media screen and (min-width: 681px) and (max-width: 1024px) {
+  .form {
+    max-width: 80%;
+    padding: 40px;
+  }
+
+  .form__input {
+    font-size: 16px;
+    line-height: 24px;
+    width: 100%;
+    max-width: none;
+  }
+
+  .form__button {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .form {
+    max-width: 60%;
+  }
+
+  .form__input {
+    font-size: 18px;
+    line-height: 28px;
+    width: 100%;
+    max-width: none;
+  }
+}
