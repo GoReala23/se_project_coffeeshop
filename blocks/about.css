@@ -140,6 +140,7 @@
   .about__title {
     font-size: 44px;
     line-height: 52px;
+    padding-right: 5%;
   }
 
   .about__content {

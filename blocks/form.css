@@ -82,6 +82,7 @@
   .form__input {
     font-size: 14px;
     line-height: 20px;
+    max-width: none;
   }
 
   .form__button {
