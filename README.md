@@ -54,6 +54,11 @@ The **Coffeeshop** project is a clean and modern static website designed to prom
 
 ---
 
+## Demo Video
+
+Watch a walkthrough of the project:  
+👉 [Triple Peaks Library Demo Video](https://www.loom.com/share/2a52d27d92434ff883b41990d0bf8073)
+
 ## Setup and Installation
 
 This project is static and **does not require npm, Node.js, or any server setup**.
